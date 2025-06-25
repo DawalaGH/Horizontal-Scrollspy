@@ -11,22 +11,24 @@
     <style>
       body {
         position: relative;
+        background-color: yellowgreen;
       }
 
       p {
-        font-size: 18px;
+        font-size: 1px;
       }
       #section1 {
         padding-top: 50px;
         height: 500px;
         color: white;
         background-color: orange;
+        padding-bottom: 560px;
       }
-      #section1 {
+      #section2 {
         padding-top: 50px;
         height: 500px;
         color: green;
-        background-color: white;
+        background-color: aquamarine;
       }
     </style>
   </head>
@@ -40,26 +42,14 @@
             data-toggle="collapse"
             data-target="#myNavbar"
           >
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <a href="#section1">Section1</a>
+            <a href="#section2">Section2</a>
           </button>
 
-          <a class="navbar-brand" href="#">Codingal</a>
+          <a class="navbar-brand" href="#codingal">Codingal</a>
         </div>
-
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="#section1">Section1</a></li>
-              <li><a href="#section2">Section2</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </nav>
-
-    <section id="section1" class="container-fluid">
+    <div id="section1" class="container-fluid">
       <h1>Section1</h1>
 
       <h3>Codingal</h3>
@@ -74,14 +64,14 @@
       </h5>
 
       <p>Scroll this section.</p>
-    </section>
+    </div>
 
-    <section id="section 2" class="container-fluid">
+    <div id="section2" class="container-fluid">
       <h1>Section 2</h1>
       <h3>Codingal</h3>
 
       <h5>Vivek Prakash and Satyam Baranwal are the founders of Codingal</h5>
       <p>Scroll this section</p>
-    </section>
+    </div>
   </body>
 </html>
